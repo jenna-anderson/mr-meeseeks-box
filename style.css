@@ -1,1 +1,124 @@
-
+#page {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #header {
+    background-color: #98fb98;
+    margin: 20px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-family: "Dokdo", cursive;
+    max-width:100%;
+  }
+  
+  h1 {
+    display: flex;
+    align-items: center;
+    font-family: "Dokdo", cursive;
+    font-size: 65px;
+    padding: 0px;
+    max-width:100%;
+  }
+  
+  #header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:100%;
+  }
+  
+  #sale {
+    margin: 0px;
+    font-size: 28px;
+  }
+  
+  #price {
+    margin: 0px 0px 10px 0px;
+  }
+  
+  .old-price {
+    color: red;
+    padding: 5px;
+  }
+  
+  .new-price {
+    font-size: 25px;
+  }
+  
+  .buttons {
+    border: none;
+    background-color: #2f4f4f;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #product-image {
+    max-width:100%
+    height:auto;
+  }
+  
+  #content {
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    font-family: "Barlow", sans-serif;
+    margin:20px;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 19px;
+    width:100%;
+  }
+  
+  #description {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  
+  .bold {
+    font-weight:bold;
+  }
+  
+  #examples {
+    border: 2px solid black;
+    padding: 10px 42px;
+    background-color: #2f4f4f;
+    box-shadow: 0px 5px 10px 0px #888888;
+    color: #b0c4de;
+    margin: 30px 15px;
+    max-width:100%;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  .images {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:100%;
+  }
+  
+  .caption {
+    font-size: 25px;
+    font-family: "Dokdo", cursive;
+  }
+  
+  .fine-print {
+    font-size: 13px;
+    color: red;
+  }
+  
